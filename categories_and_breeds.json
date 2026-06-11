@@ -1,0 +1,137 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Kategori 1",
+      "description": "Långhår och semilånghår som tävlar strikt efter färg"
+    },
+    {
+      "id": 2,
+      "name": "Kategori 2",
+      "description": "Semilånghår som tävlar i grupp"
+    },
+    {
+      "id": 3,
+      "name": "Kategori 3",
+      "description": "Korthår som är lite grövre i typen"
+    },
+    {
+      "id": 4,
+      "name": "Kategori 4",
+      "description": "Orientaliska raser, mer slanka korthår, rexade korthårsraser samt nakenkatter"
+    }
+  ],
+  "breeds": [
+    {
+      "breed_code": "EXO",
+      "name": "Exotic",
+      "category_id": 1
+    },
+    {
+      "breed_code": "PER",
+      "name": "Perser",
+      "category_id": 1
+    },
+    {
+      "breed_code": "RAG",
+      "name": "Ragdoll",
+      "category_id": 1
+    },
+    {
+      "breed_code": "SBI",
+      "name": "Helig Birma",
+      "category_id": 1
+    },
+    {
+      "breed_code": "MCO",
+      "name": "Maine Coon",
+      "category_id": 2
+    },
+    {
+      "breed_code": "NFO",
+      "name": "Norsk Skogkatt",
+      "category_id": 2
+    },
+    {
+      "breed_code": "SIB",
+      "name": "Sibirisk katt",
+      "category_id": 2
+    },
+    {
+      "breed_code": "NEM",
+      "name": "Neva Masquerade",
+      "category_id": 2
+    },
+    {
+      "breed_code": "TUV",
+      "name": "Turkisk Van",
+      "category_id": 2
+    },
+    {
+      "breed_code": "TUA",
+      "name": "Turkisk Angora",
+      "category_id": 2
+    },
+    {
+      "breed_code": "BEN",
+      "name": "Bengal",
+      "category_id": 3
+    },
+    {
+      "breed_code": "BSH",
+      "name": "Brittiskt Korthår",
+      "category_id": 3
+    },
+    {
+      "breed_code": "BLH",
+      "name": "Brittiskt Långhår",
+      "category_id": 3
+    },
+    {
+      "breed_code": "BUR",
+      "name": "Burma",
+      "category_id": 3
+    },
+    {
+      "breed_code": "OCI",
+      "name": "Ocicat",
+      "category_id": 3
+    },
+    {
+      "breed_code": "CRX",
+      "name": "Cornish Rex",
+      "category_id": 4
+    },
+    {
+      "breed_code": "DRX",
+      "name": "Devon Rex",
+      "category_id": 4
+    },
+    {
+      "breed_code": "OLH",
+      "name": "Orientaliskt Långhår",
+      "category_id": 4
+    },
+    {
+      "breed_code": "RUS",
+      "name": "Russian Blue",
+      "category_id": 4
+    },
+    {
+      "breed_code": "SIA",
+      "name": "Siames",
+      "category_id": 4
+    },
+    {
+      "breed_code": "LYO",
+      "name": "Lykoi",
+      "category_id": 4
+    },
+    {
+      "breed_code": "HCS",
+      "name": "Huskatt",
+      "category_id": null,
+      "notes": "Bedöms efter egen huskattstandard, men visas ofta i anslutning till kategori 4."
+    }
+  ]
+}

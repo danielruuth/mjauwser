@@ -1,0 +1,67 @@
+services:
+  # --- DATABAS (PostgreSQL) ---
+  db:
+    image: postgres:16-alpine
+    container_name: catshow_db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret_password_123
+      POSTGRES_DB: catshow_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d catshow_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+  # --- BACKEND API & SOCKETS (FastAPI) ---
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: catshow_api
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://admin:secret_password_123@db:5432/catshow_db
+      - ENV=development
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin123
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api:/app
+    depends_on:
+      db:
+        condition: service_healthy # Startar först när Postgres faktiskt är redo att ta emot anslutningar
+
+  # --- FRONTEND UI (Nuxt 4 / Vite) ---
+  ui:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: catshow_ui
+    restart: always
+    environment:
+      - API_PROXY_TARGET=http://api:8000            # Intern proxy-URL till API-containern
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./ui:/app
+      - /app/.nuxt
+      - nuxt_node_modules:/app/node_modules
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:
+  nuxt_node_modules:

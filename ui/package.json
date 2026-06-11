@@ -1,0 +1,28 @@
+{
+  "name": "catshow-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@hypernym/nuxt-anime": "^2.1.1",
+    "@lucide/vue": "^1.16.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/core": "^10.11.0",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.5.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.18.0",
+    "typescript": "^5.4.0"
+  }
+}

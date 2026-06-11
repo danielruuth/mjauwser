@@ -1,0 +1,214 @@
+{
+  "exhibitors_cats": [
+    {
+      "catalog_nr": [1,11],
+      "name": "SE*Lilla Hovet's Madame Blanc",
+      "breed_ems": "EXO w 63",
+      "gender": "Hona",
+      "show_class": "Klass 9",
+      "birth_date": null,
+      "registration_nr": null,
+      "owner": null
+    },
+    {
+      "catalog_nr": [27],
+      "name": "IP SE*Mångudinnan Hedda",
+      "breed_ems": "RAG n 03",
+      "gender": "Hona",
+      "show_class": "Klass 6",
+      "birth_date": "2021-09-08",
+      "registration_nr": "LO396653",
+      "owner": "Wallgren, Marie"
+    },
+    {
+      "catalog_nr": [38,138],
+      "name": "GIC NO Fumapusene Pippin JW",
+      "breed_ems": "RAG",
+      "gender": "Hane",
+      "show_class": "Klass 3",
+      "birth_date": null,
+      "registration_nr": null,
+      "owner": "Moss, Bodil"
+    },
+    {
+      "catalog_nr": [false,39],
+      "name": "SW'19 PR IC S Linéahuset's Pretty Belindha JW",
+      "breed_ems": "RAG",
+      "gender": "Hona",
+      "show_class": "Klass 8",
+      "birth_date": "2018-06-16",
+      "registration_nr": "LO354992",
+      "owner": "Porat, Eva"
+    },
+    {
+      "catalog_nr": [58,158],
+      "name": "GIC S*Wi'nte Sams Fanny Mae",
+      "breed_ems": "TUV d 61",
+      "gender": "Hona",
+      "show_class": "Klass 3",
+      "birth_date": "2021-03-23",
+      "registration_nr": "LO389456",
+      "owner": "Molin Lundahl, Kajsa"
+    },
+    {
+      "catalog_nr": [80,180],
+      "name": "S*Checkers khan",
+      "breed_ems": "MCO a 09 22",
+      "gender": "Hane",
+      "show_class": "Klass 12",
+      "birth_date": "2024-12-20",
+      "registration_nr": "LO438025",
+      "owner": "Genc, Sean"
+    },
+    {
+      "catalog_nr": [123,223],
+      "name": "SE*Tant Piggelins Rosa",
+      "breed_ems": "NEM n 09 21",
+      "gender": "Hona",
+      "show_class": "Klass 12",
+      "birth_date": "2024-11-10",
+      "registration_nr": "LO437068",
+      "owner": "Stridh, Marie"
+    },
+    {
+      "catalog_nr": [124,224],
+      "name": "GIC FI*Cherrytail's TemptationBaby JW",
+      "breed_ems": "NEM f 21",
+      "gender": "Hona",
+      "show_class": "Klass 3",
+      "birth_date": "2021-12-19",
+      "registration_nr": "LO404924",
+      "owner": "Olsson, Anette"
+    },
+    {
+      "catalog_nr": [126,226],
+      "name": "SE*Scuzzie's Ruby rose",
+      "breed_ems": "NEM gs 09 21",
+      "gender": "Hona",
+      "show_class": "Klass 11",
+      "birth_date": "2024-08-10",
+      "registration_nr": "LO434748",
+      "owner": "Wahlbärj, Kerstin"
+    },
+    {
+      "catalog_nr": [134,234],
+      "name": "SW 22 GIC S*Tigerögas grape Assario DVM",
+      "breed_ems": "NFO ns 03 22",
+      "gender": "Hane",
+      "show_class": "Klass 3",
+      "birth_date": null,
+      "registration_nr": null,
+      "owner": "Nordlund, Siv"
+    },
+    {
+      "catalog_nr": [147],
+      "name": "S*Djupdalen's Karl Lejonhjärta",
+      "breed_ems": "NFO d 24",
+      "gender": "Hane",
+      "show_class": "Klass 12",
+      "birth_date": "2023-03-11",
+      "registration_nr": "LO417242",
+      "owner": "Lindfors, Annica"
+    },
+    {
+      "catalog_nr": [175,275],
+      "name": "S*Pysida's JoJo",
+      "breed_ems": "NFO ns 09",
+      "gender": "Hane",
+      "show_class": "Klass 12",
+      "birth_date": "2025-02-15",
+      "registration_nr": "LO440025",
+      "owner": "Andersson, Inger"
+    },
+    {
+      "catalog_nr": [181,281],
+      "name": "GIC JCH KCH SE*Stjärnkullens Bosse av kito",
+      "breed_ems": "SIB ny 22",
+      "gender": "Hane",
+      "show_class": "Klass 3",
+      "birth_date": "2023-10-21",
+      "registration_nr": "LO424326",
+      "owner": "Fredriksson Sten, Johanna"
+    },
+    {
+      "catalog_nr": [209,309],
+      "name": "SE*Nordic Aurora Livets Låga",
+      "breed_ems": "BEN n 22",
+      "gender": "Hane",
+      "show_class": "Klass 8",
+      "birth_date": "2024-01-03",
+      "registration_nr": "LO427325",
+      "owner": "Dahlin Andersson, Pernilla"
+    },
+    {
+      "catalog_nr": [238,338],
+      "name": "IP SC S*Selikas Glowing Dacapo",
+      "breed_ems": "BSH a",
+      "gender": "Hane",
+      "show_class": "Klass 9",
+      "birth_date": "2022-06-29",
+      "registration_nr": "LO407162",
+      "owner": "Jarlberger, Anders"
+    },
+    {
+      "catalog_nr": [262,362],
+      "name": "GIP S*Lovestory's Nate Dogg",
+      "breed_ems": "BUR",
+      "gender": "Hane",
+      "show_class": "Klass 4",
+      "birth_date": "2022-05-14",
+      "registration_nr": "LO429074",
+      "owner": "Leek, Anneth"
+    },
+    {
+      "catalog_nr": [263,363],
+      "name": "KCH UA Oktarin Hedda",
+      "breed_ems": "BUR",
+      "gender": "Hona",
+      "show_class": "Klass 11",
+      "birth_date": "2024-08-18",
+      "registration_nr": "LO437364",
+      "owner": "Holmgren, Kickie"
+    },
+    {
+      "catalog_nr": [317],
+      "name": "(N)Tejas Tandri",
+      "breed_ems": "LYO d",
+      "gender": "Hane",
+      "show_class": "Klass 11",
+      "birth_date": "2024-08-14",
+      "registration_nr": "RX436917",
+      "owner": "Roos, Emma"
+    },
+    {
+      "catalog_nr": [318],
+      "name": "SE*Yee'z Little Meez Grynet",
+      "breed_ems": "OLH c 24",
+      "gender": "Hona",
+      "show_class": "Klass 12",
+      "birth_date": "2024-11-13",
+      "registration_nr": "RX437382",
+      "owner": "Yee Persson, Kajsa"
+    },
+    {
+      "catalog_nr": [328,428],
+      "name": "KCH SE Blåstjärnans Hasse JW",
+      "breed_ems": "RUS",
+      "gender": "Hane",
+      "show_class": "Klass 11",
+      "birth_date": "2024-10-17",
+      "registration_nr": "LO435955",
+      "owner": "Dartgard, Marie"
+    },
+    {
+      "catalog_nr": [347],
+      "name": "Fritzzjunior DSM",
+      "breed_ems": "HCS d 09 22",
+      "gender": "Hane",
+      "show_class": "Klass 14",
+      "birth_date": "2018-05-18",
+      "registration_nr": "LO1874",
+      "owner": "Hellkvist, Eva"
+    }
+  ]
+}
